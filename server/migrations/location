@@ -1,0 +1,1885 @@
+Script started on 2023-06-28 18:44:17+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[00m$ alembic current
+  FAILED: No 'script_location' key found in configuration.
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[00m$ script_location = rootpackage:alembic 
+script_location: command not found
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[00m$ alembic [K.ini
+alembic.ini: command not found
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/migrations[00m$ cd ..
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ cd ..alembic.iniscript_location = rootpackage:alembic 
+script_location: command not found
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ script_location = rootpackage:alembic cd ..[Kalembic.iniscript_location = rootpackage:alembic alembic.ini[K
+alembic.ini: command not found
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ alembic.iniscript_location = rootpackage:alembic cd ..[Kalembic.iniscript_location = rootpackage:alembic [23Palembic current[9Pcode .d python-p4-flask-restful-cr-labls[Kcd ..[Kgit pushcommit -m"complete lab"add .[Kpipenv shellinstall--python /usr/bin/python[Kcd python-p4-building-get-api-labls[K[K[Kalembic upgrade head
+  FAILED: No config file 'alembic.ini' found, or file has no '[alembic]' section
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ alembic current
+  FAILED: No config file 'alembic.ini' found, or file has no '[alembic]' section
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ tree
+[01;34m.[00m
+├── app.py
+├── debug.py
+├── [01;34mmigrations[00m
+│   ├── alembic.ini
+│   ├── env.py
+│   ├── location
+│   ├── README
+│   ├── script.py.mako
+│   └── [01;34mversions[00m
+├── models.py
+└── [01;34mtesting[00m
+    ├── conftest.py
+    └── models_test.py
+
+3 directories, 10 files
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ python -m alembic init lib/alembic
+  Creating directory /home/gina/Documents/python/phase4/python-p4-validation-
+  flask-sqlalchemy-validations-lab/server/lib/alembic ...  done
+  Creating directory /home/gina/Documents/python/phase4/python-p4-validation-
+  flask-sqlalchemy-validations-lab/server/lib/alembic/versions ...  done
+  Generating /home/gina/Documents/python/phase4/python-p4-validation-flask-
+  sqlalchemy-validations-lab/server/lib/alembic/env.py ...  done
+  Generating /home/gina/Documents/python/phase4/python-p4-validation-flask-
+  sqlalchemy-validations-lab/server/alembic.ini ...  done
+  Generating /home/gina/Documents/python/phase4/python-p4-validation-flask-
+  sqlalchemy-validations-lab/server/lib/alembic/README ...  done
+  Generating /home/gina/Documents/python/phase4/python-p4-validation-flask-
+  sqlalchemy-validations-lab/server/lib/alembic/script.py.mako ...  done
+  Please edit configuration/connection/logging settings in
+  '/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-
+  validations-lab/server/alembic.ini' before proceeding.
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ alembic upgrade head
+Traceback (most recent call last):
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/bin/alembic", line 8, in <module>
+    sys.exit(main())
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 591, in main
+    CommandLine(prog=prog).main(argv=argv)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 585, in main
+    self.run_cmd(cfg, options)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 562, in run_cmd
+    fn(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/command.py", line 378, in upgrade
+    script.run_env()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/script/base.py", line 576, in run_env
+    util.load_python_file(self.dir, "env.py")
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 94, in load_python_file
+    module = load_module_py(module_id, path)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 110, in load_module_py
+    spec.loader.exec_module(module)  # type: ignore
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 78, in <module>
+    run_migrations_online()
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 60, in run_migrations_online
+    connectable = engine_from_config(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 817, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/deprecations.py", line 277, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 556, in create_engine
+    entrypoint = u._get_entrypoint()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/url.py", line 754, in _get_entrypoint
+    cls = registry.load(name)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 365, in load
+    raise exc.NoSuchModuleError(
+sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:driver
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pipenv install
+[1mInstalling dependencies from Pipfile.lock (ee5361)...[0m
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pipenv installalembic upgrade head
+Traceback (most recent call last):
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/bin/alembic", line 8, in <module>
+    sys.exit(main())
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 591, in main
+    CommandLine(prog=prog).main(argv=argv)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 585, in main
+    self.run_cmd(cfg, options)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 562, in run_cmd
+    fn(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/command.py", line 378, in upgrade
+    script.run_env()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/script/base.py", line 576, in run_env
+    util.load_python_file(self.dir, "env.py")
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 94, in load_python_file
+    module = load_module_py(module_id, path)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 110, in load_module_py
+    spec.loader.exec_module(module)  # type: ignore
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 78, in <module>
+    run_migrations_online()
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 60, in run_migrations_online
+    connectable = engine_from_config(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 817, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/deprecations.py", line 277, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 556, in create_engine
+    entrypoint = u._get_entrypoint()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/url.py", line 754, in _get_entrypoint
+    cls = registry.load(name)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 365, in load
+    raise exc.NoSuchModuleError(
+sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:driver
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pytest
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-7.2.2, pluggy-1.0.0
+rootdir: /home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab, configfile: pytest.ini
+plugins: Faker-17.6.0
+[1mcollecting ... [0m[1mcollected 8 items                                                              [0m
+
+../Class Author in models.py requires each record to have a name. [31mF[0m[31m      [ 12%][0m
+../Class Author in models.py requires each record to have a unique name. [31mF[0m[31m [ 25%]
+[0m[31m                                                                         [ 25%][0m
+../Class Author in models.py requires each phone number to be exactly ten digits. [31mF[0m[31m [ 37%]
+[0m[31m                                                                         [ 37%][0m
+../Class Post in models.py requires each post to have a title. [31mF[0m[31m         [ 50%][0m
+../Class Post in models.py Content too short test. Less than 250 chars. [31mF[0m[31m [ 62%]
+[0m[31m                                                                         [ 62%][0m
+../Class Post in models.py Summary too long test. More than 250 chars. [31mF[0m[31m [ 75%]
+[0m[31m                                                                         [ 75%][0m
+../Class Post in models.py Incorrect category test [31mF[0m[31m                     [ 87%][0m
+../Class Post in models.py Test clickbait validator for title. [31mF[0m[31m         [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestAuthor.test_requires_name _________________________[0m
+
+self = <models_test.TestAuthor object at 0x7f1ebc685e50>
+
+    [94mdef[39;49;00m [92mtest_requires_name[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''requires each record to have a name.'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+>               author = Author(name = [33m'[39;49;00m[33m'[39;49;00m, phone_number = [33m'[39;49;00m[33m1231144321[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+[1m[31mE               Failed: DID NOT RAISE <class 'ValueError'>[0m
+
+[1m[31mtesting/models_test.py[0m:17: Failed
+[31m[1m_____________________ TestAuthor.test_requires_unique_name _____________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebc311f40>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebc26c310>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebc26c2b0>
+parameters = [('Ben', '1231144321', None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebc261880>
+statement = 'INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)'
+parameters = ('Ben', '1231144321', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebc26c310>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: authors[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestAuthor object at 0x7f1ebc685d30>
+
+    [94mdef[39;49;00m [92mtest_requires_unique_name[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''requires each record to have a unique name.'''[39;49;00m[90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+    [90m[39;49;00m
+            author_a = Author(name = [33m'[39;49;00m[33mBen[39;49;00m[33m'[39;49;00m, phone_number = [33m'[39;49;00m[33m1231144321[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+            author_b = Author(name = [33m'[39;49;00m[33mBen[39;49;00m[33m'[39;49;00m, phone_number = [33m'[39;49;00m[33m1231144321[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises(IntegrityError):[90m[39;49;00m
+                db.session.add(author_a)[90m[39;49;00m
+                db.session.add(author_b)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:31: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebc261880>
+statement = 'INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)'
+parameters = ('Ben', '1231144321', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebc26c310>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: authors[0m
+[1m[31mE       [SQL: INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)][0m
+[1m[31mE       [parameters: ('Ben', '1231144321', None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m_______________ TestAuthor.test_requires_ten_digit_phone_number ________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebb760a00>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb760c70>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebc26c2b0>
+parameters = [('Jane Author', '3311', None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb8480a0>
+statement = 'INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)'
+parameters = ('Jane Author', '3311', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb760c70>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: authors[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestAuthor object at 0x7f1ebc6930a0>
+
+    [94mdef[39;49;00m [92mtest_requires_ten_digit_phone_number[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''requires each phone number to be exactly ten digits.'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+    [90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+                author = Author(name=[33m"[39;49;00m[33mJane Author[39;49;00m[33m"[39;49;00m, phone_number=[33m"[39;49;00m[33m3311[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+                author2 = Author(name=[33m"[39;49;00m[33mJane Author[39;49;00m[33m"[39;49;00m, phone_number=[33m"[39;49;00m[33m3312212121212121[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [90m[39;49;00m
+                db.session.add(author)[90m[39;49;00m
+                db.session.add(author2)[90m[39;49;00m
+    [90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb8480a0>
+statement = 'INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)'
+parameters = ('Jane Author', '3311', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb760c70>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: authors[0m
+[1m[31mE       [SQL: INSERT INTO authors (name, phone_number, updated_at) VALUES (?, ?, ?)][0m
+[1m[31mE       [parameters: ('Jane Author', '3311', None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m_________________________ TestPost.test_requires_title _________________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebba03430>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebba038e0>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebba035b0>
+parameters = [(None, 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis...his is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Non-Fiction', None, None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebc261d50>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = (None, 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis ...This is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Non-Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebba038e0>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: posts[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestPost object at 0x7f1ebc6932b0>
+
+    [94mdef[39;49;00m [92mtest_requires_title[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''requires each post to have a title.'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            content_string = [33m"[39;49;00m[33mThis is content[39;49;00m[33m"[39;49;00m * [94m150[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+            post = Post(content=content_string, category=[33m'[39;49;00m[33mNon-Fiction[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises(IntegrityError):[90m[39;49;00m
+                db.session.add(post)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebc261d50>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = (None, 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis ...This is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Non-Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebba038e0>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: posts[0m
+[1m[31mE       [SQL: INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)][0m
+[1m[31mE       [parameters: (None, 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is conten ... (1952 characters truncated) ... his is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Non-Fiction', None, None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m_________________________ TestPost.test_content_length _________________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebbd2bd30>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebbd2bf10>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebba035b0>
+parameters = [('Secret, Why I love programming.', 'This is contentThis is content', 'Non-Fiction', None, None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb8483b0>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is content', 'Non-Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebbd2bf10>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: posts[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestPost object at 0x7f1ebc693400>
+
+    [94mdef[39;49;00m [92mtest_content_length[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''Content too short test. Less than 250 chars.'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            content_string = [33m"[39;49;00m[33mThis is content[39;49;00m[33m"[39;49;00m * [94m2[39;49;00m[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+                post = Post(title=[33m'[39;49;00m[33mSecret, Why I love programming.[39;49;00m[33m'[39;49;00m, content=content_string, category=[33m'[39;49;00m[33mNon-Fiction[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+                db.session.add(post)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:88: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb8483b0>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is content', 'Non-Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebbd2bf10>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: posts[0m
+[1m[31mE       [SQL: INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)][0m
+[1m[31mE       [parameters: ('Secret, Why I love programming.', 'This is contentThis is content', 'Non-Fiction', None, None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m_________________________ TestPost.test_summary_length _________________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebb032310>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb032460>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebba035b0>
+parameters = [('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis ...TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT', None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebbfb9a40>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis i...TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb032460>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: posts[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestPost object at 0x7f1ebc693550>
+
+    [94mdef[39;49;00m [92mtest_summary_length[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''Summary too long test. More than 250 chars.'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            content_string = [33m"[39;49;00m[33mThis is content[39;49;00m[33m"[39;49;00m * [94m150[39;49;00m[90m[39;49;00m
+            summary_string = [33m"[39;49;00m[33mT[39;49;00m[33m"[39;49;00m * [94m250[39;49;00m[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+                post = Post(title=[33m'[39;49;00m[33mSecret, Why I love programming.[39;49;00m[33m'[39;49;00m, content=content_string, summary= summary_string, category=[33m'[39;49;00m[33mNon-Fiction[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+                db.session.add(post)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebbfb9a40>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis i...TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT', None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb032460>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: posts[0m
+[1m[31mE       [SQL: INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)][0m
+[1m[31mE       [parameters: ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is conten ... (1952 characters truncated) ... his is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Non-Fiction', 'TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT', None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m____________________________ TestPost.test_category ____________________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebbf94f70>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb607070>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebba035b0>
+parameters = [('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis ...tentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Banana', None, None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebbb91d50>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis i...ntentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Banana', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb607070>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: posts[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestPost object at 0x7f1ebc6936a0>
+
+    [94mdef[39;49;00m [92mtest_category[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''Incorrect category test'''[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            content_string = [33m"[39;49;00m[33mThis is content[39;49;00m[33m"[39;49;00m * [94m150[39;49;00m[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+                post = Post(title=[33m'[39;49;00m[33mSecret, Why I love programming.[39;49;00m[33m'[39;49;00m, content=content_string, category=[33m'[39;49;00m[33mBanana[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+                db.session.add(post)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:109: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebbb91d50>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis i...ntentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Banana', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb607070>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: posts[0m
+[1m[31mE       [SQL: INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)][0m
+[1m[31mE       [parameters: ('Secret, Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is conten ... (1952 characters truncated) ... his is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Banana', None, None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[31m[1m___________________________ TestPost.test_clickbait ____________________________[0m
+
+self = <sqlalchemy.engine.base.Connection object at 0x7f1ebb7e1fd0>
+dialect = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb7e1160>
+statement = <sqlalchemy.dialects.sqlite.base.SQLiteCompiler object at 0x7f1ebba035b0>
+parameters = [('Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is conte...entThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Fiction', None, None)]
+
+    [94mdef[39;49;00m [92m_exec_single_context[39;49;00m([90m[39;49;00m
+        [96mself[39;49;00m,[90m[39;49;00m
+        dialect: Dialect,[90m[39;49;00m
+        context: ExecutionContext,[90m[39;49;00m
+        statement: Union[[96mstr[39;49;00m, Compiled],[90m[39;49;00m
+        parameters: Optional[_AnyMultiExecuteParams],[90m[39;49;00m
+    ) -> CursorResult[Any]:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""continue the _execute_context() method for a single DBAPI[39;49;00m
+    [33m    cursor.execute() or cursor.executemany() call.[39;49;00m
+    [33m[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m dialect.bind_typing [95mis[39;49;00m BindTyping.SETINPUTSIZES:[90m[39;49;00m
+            generic_setinputsizes = context._prepare_set_input_sizes()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m generic_setinputsizes:[90m[39;49;00m
+                [94mtry[39;49;00m:[90m[39;49;00m
+                    dialect.do_set_input_sizes([90m[39;49;00m
+                        context.cursor, generic_setinputsizes, context[90m[39;49;00m
+                    )[90m[39;49;00m
+                [94mexcept[39;49;00m [96mBaseException[39;49;00m [94mas[39;49;00m e:[90m[39;49;00m
+                    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+                        e, [96mstr[39;49;00m(statement), parameters, [94mNone[39;49;00m, context[90m[39;49;00m
+                    )[90m[39;49;00m
+    [90m[39;49;00m
+        cursor, str_statement, parameters = ([90m[39;49;00m
+            context.cursor,[90m[39;49;00m
+            context.statement,[90m[39;49;00m
+            context.parameters,[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        effective_parameters: Optional[_AnyExecuteParams][90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [95mnot[39;49;00m context.executemany:[90m[39;49;00m
+            effective_parameters = parameters[[94m0[39;49;00m][90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            effective_parameters = parameters[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._has_events [95mor[39;49;00m [96mself[39;49;00m.engine._has_events:[90m[39;49;00m
+            [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dispatch.before_cursor_execute:[90m[39;49;00m
+                str_statement, effective_parameters = fn([90m[39;49;00m
+                    [96mself[39;49;00m,[90m[39;49;00m
+                    cursor,[90m[39;49;00m
+                    str_statement,[90m[39;49;00m
+                    effective_parameters,[90m[39;49;00m
+                    context,[90m[39;49;00m
+                    context.executemany,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m._echo:[90m[39;49;00m
+    [90m[39;49;00m
+            [96mself[39;49;00m._log_info(str_statement)[90m[39;49;00m
+    [90m[39;49;00m
+            stats = context._get_cache_stats()[90m[39;49;00m
+    [90m[39;49;00m
+            [94mif[39;49;00m [95mnot[39;49;00m [96mself[39;49;00m.engine.hide_parameters:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [39;49;00m[33m%r[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                    sql_util._repr_params([90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        batches=[94m10[39;49;00m,[90m[39;49;00m
+                        ismulti=context.executemany,[90m[39;49;00m
+                    ),[90m[39;49;00m
+                )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                [96mself[39;49;00m._log_info([90m[39;49;00m
+                    [33m"[39;49;00m[33m[[39;49;00m[33m%s[39;49;00m[33m] [SQL parameters hidden due to hide_parameters=True][39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+                    stats,[90m[39;49;00m
+                )[90m[39;49;00m
+    [90m[39;49;00m
+        evt_handled: [96mbool[39;49;00m = [94mFalse[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m context.execute_style [95mis[39;49;00m ExecuteStyle.EXECUTEMANY:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreMultiExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_executemany:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_executemany([90m[39;49;00m
+                        cursor,[90m[39;49;00m
+                        str_statement,[90m[39;49;00m
+                        effective_parameters,[90m[39;49;00m
+                        context,[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melif[39;49;00m [95mnot[39;49;00m effective_parameters [95mand[39;49;00m context.no_parameters:[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute_no_params:[90m[39;49;00m
+                        [94mif[39;49;00m fn(cursor, str_statement, context):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+                    [96mself[39;49;00m.dialect.do_execute_no_params([90m[39;49;00m
+                        cursor, str_statement, context[90m[39;49;00m
+                    )[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                effective_parameters = cast([90m[39;49;00m
+                    [33m"[39;49;00m[33m_CoreSingleExecuteParams[39;49;00m[33m"[39;49;00m, effective_parameters[90m[39;49;00m
+                )[90m[39;49;00m
+                [94mif[39;49;00m [96mself[39;49;00m.dialect._has_events:[90m[39;49;00m
+                    [94mfor[39;49;00m fn [95min[39;49;00m [96mself[39;49;00m.dialect.dispatch.do_execute:[90m[39;49;00m
+                        [94mif[39;49;00m fn([90m[39;49;00m
+                            cursor,[90m[39;49;00m
+                            str_statement,[90m[39;49;00m
+                            effective_parameters,[90m[39;49;00m
+                            context,[90m[39;49;00m
+                        ):[90m[39;49;00m
+                            evt_handled = [94mTrue[39;49;00m[90m[39;49;00m
+                            [94mbreak[39;49;00m[90m[39;49;00m
+                [94mif[39;49;00m [95mnot[39;49;00m evt_handled:[90m[39;49;00m
+>                   [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+                        cursor, str_statement, effective_parameters, context[90m[39;49;00m
+                    )[90m[39;49;00m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb72cb90>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is conten...tentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb7e1160>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlite3.OperationalError: no such table: posts[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+self = <models_test.TestPost object at 0x7f1ebc6937f0>
+
+    [94mdef[39;49;00m [92mtest_clickbait[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m'''Test clickbait validator for title.'''[39;49;00m[90m[39;49;00m
+        [94mwith[39;49;00m app.app_context():[90m[39;49;00m
+            content_string = [33m"[39;49;00m[33mThis is content[39;49;00m[33m"[39;49;00m * [94m150[39;49;00m[90m[39;49;00m
+            [94mwith[39;49;00m pytest.raises([96mValueError[39;49;00m):[90m[39;49;00m
+                post = Post(title=[33m'[39;49;00m[33mWhy I love programming.[39;49;00m[33m'[39;49;00m, content=content_string, category=[33m'[39;49;00m[33mFiction[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+                db.session.add(post)[90m[39;49;00m
+>               db.session.commit()[90m[39;49;00m
+
+[1m[31mtesting/models_test.py[0m:119: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py[0m:553: in commit
+    [94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1903: in commit
+    trans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1218: in commit
+    [96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    ret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:1193: in _prepare_impl
+    [96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4155: in flush
+    [96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4292: in _flush
+    transaction.rollback(_capture_exception=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py[0m:147: in __exit__
+    [94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/session.py[0m:4252: in _flush
+    flush_context.execute()[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:467: in execute
+    rec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py[0m:644: in execute
+    util.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    _emit_insert_statements([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py[0m:1184: in _emit_insert_statements
+    result = connection.execute([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1414: in execute
+    [94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/elements.py[0m:486: in _execute_on_connection
+    [94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1638: in _execute_clauseelement
+    ret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1842: in _execute_context
+    [94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:2326: in _handle_dbapi_exception
+    [94mraise[39;49;00m sqlalchemy_exception.with_traceback(exc_info[[94m2[39;49;00m]) [94mfrom[39;49;00m [04m[96me[39;49;00m[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/base.py[0m:1964: in _exec_single_context
+    [96mself[39;49;00m.dialect.do_execute([90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x7f1ebc6c5220>
+cursor = <sqlite3.Cursor object at 0x7f1ebb72cb90>
+statement = 'INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)'
+parameters = ('Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is conten...tentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Fiction', None, None)
+context = <sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object at 0x7f1ebb7e1160>
+
+    [94mdef[39;49;00m [92mdo_execute[39;49;00m([96mself[39;49;00m, cursor, statement, parameters, context=[94mNone[39;49;00m):[90m[39;49;00m
+>       cursor.execute(statement, parameters)[90m[39;49;00m
+[1m[31mE       sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: posts[0m
+[1m[31mE       [SQL: INSERT INTO posts (title, content, category, summary, updated_at) VALUES (?, ?, ?, ?, ?)][0m
+[1m[31mE       [parameters: ('Why I love programming.', 'This is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is conten ... (1952 characters truncated) ... his is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is contentThis is content', 'Fiction', None, None)][0m
+[1m[31mE       (Background on this error at: https://sqlalche.me/e/20/e3q8)[0m
+
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/default.py[0m:748: OperationalError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m ../Class Author in models.py requires each record to have a name. - Failed: DID NOT RAISE <class 'ValueError'>
+[31mFAILED[0m ../Class Author in models.py requires each record to have a unique name. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Author in models.py requires each phone number to be exactly ten digits. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Post in models.py requires each post to have a title. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Post in models.py Content too short test. Less than 250 chars. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Post in models.py Summary too long test. More than 250 chars. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Post in models.py Incorrect category test - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31mFAILED[0m ../Class Post in models.py Test clickbait validator for title. - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: ...
+[31m============================== [31m[1m8 failed[0m[31m in 3.36s[0m[31m ===============================[0m
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pytst[K[Kest
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-7.2.2, pluggy-1.0.0
+rootdir: /home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab, configfile: pytest.ini
+plugins: Faker-17.6.0
+[1mcollecting ... [0m[1mcollected 0 items / 1 error                                                    [0m
+
+==================================== ERRORS ====================================
+[31m[1m________________ ERROR collecting server/testing/models_test.py ________________[0m
+[1m[31mtesting/models_test.py[0m:5: in <module>
+    [94mfrom[39;49;00m [04m[96mapp[39;49;00m [94mimport[39;49;00m app[90m[39;49;00m
+[1m[31mapp.py[0m:4: in <module>
+    [94mfrom[39;49;00m [04m[96mmodels[39;49;00m [94mimport[39;49;00m db, Author, Post[90m[39;49;00m
+[1m[31mmodels.py[0m:27: in <module>
+    base.metadata.create_all(db)[90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/sql/schema.py[0m:5581: in create_all
+    bind._run_ddl_visitor([90m[39;49;00m
+[1m[31m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/flask_sqlalchemy/extension.py[0m:999: in __getattr__
+    [94mraise[39;49;00m [96mAttributeError[39;49;00m(name)[90m[39;49;00m
+[1m[31mE   AttributeError: _run_ddl_visitor[0m
+[33m=============================== warnings summary ===============================[0m
+models.py:9
+  /home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/models.py:9: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    base = declarative_base()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m testing/models_test.py - AttributeError: _run_ddl_visitor
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m========================= [33m1 warning[0m, [31m[1m1 error[0m[31m in 0.50s[0m[31m ==========================[0m
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pytestalembic upgrade head
+Traceback (most recent call last):
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/bin/alembic", line 8, in <module>
+    sys.exit(main())
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 591, in main
+    CommandLine(prog=prog).main(argv=argv)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 585, in main
+    self.run_cmd(cfg, options)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 562, in run_cmd
+    fn(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/command.py", line 378, in upgrade
+    script.run_env()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/script/base.py", line 576, in run_env
+    util.load_python_file(self.dir, "env.py")
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 94, in load_python_file
+    module = load_module_py(module_id, path)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 110, in load_module_py
+    spec.loader.exec_module(module)  # type: ignore
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 78, in <module>
+    run_migrations_online()
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 60, in run_migrations_online
+    connectable = engine_from_config(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 817, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/deprecations.py", line 277, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 556, in create_engine
+    entrypoint = u._get_entrypoint()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/url.py", line 754, in _get_entrypoint
+    cls = registry.load(name)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 365, in load
+    raise exc.NoSuchModuleError(
+sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:driver
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pip install --upgrade sqlalchemy
+Requirement already satisfied: sqlalchemy in /home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages (2.0.5.post1)
+Collecting sqlalchemy
+  Downloading SQLAlchemy-2.0.17-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.8 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m42.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.8 MB[0m [31m103.7 kB/s[0m eta [36m0:00:27[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m268.9 kB/s[0m eta [36m0:00:10[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m268.9 kB/s[0m eta [36m0:00:10[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m268.9 kB/s[0m eta [36m0:00:10[0m[2K     [38;2;249;38;114m━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m239.9 kB/s[0m eta [36m0:00:12[0m[2K     [38;2;249;38;114m━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m243.7 kB/s[0m eta [36m0:00:11[0m[2K     [38;2;249;38;114m━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/2.8 MB[0m [31m267.1 kB/s[0m eta [36m0:00:10[0m[2K     [38;2;249;38;114m━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/2.8 MB[0m [31m295.5 kB/s[0m eta [36m0:00:09[0m[2K     [38;2;249;38;114m━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/2.8 MB[0m [31m355.0 kB/s[0m eta [36m0:00:08[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/2.8 MB[0m [31m391.6 kB/s[0m eta [36m0:00:07[0m[2K     [38;2;249;38;114m━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/2.8 MB[0m [31m434.7 kB/s[0m eta [36m0:00:06[0m[2K     [38;2;249;38;114m━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/2.8 MB[0m [31m439.6 kB/s[0m eta [36m0:00:06[0m[2K     [38;2;249;38;114m━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/2.8 MB[0m [31m472.0 kB/s[0m eta [36m0:00:06[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/2.8 MB[0m [31m508.7 kB/s[0m eta [36m0:00:05[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/2.8 MB[0m [31m514.6 kB/s[0m eta [36m0:00:05[0m[2K     [38;2;249;38;114m━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.5/2.8 MB[0m [31m549.8 kB/s[0m eta [36m0:00:05[0m[2K     [38;2;249;38;114m━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.5/2.8 MB[0m [31m572.5 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.6/2.8 MB[0m [31m590.4 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.6/2.8 MB[0m [31m608.8 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.6/2.8 MB[0m [31m621.0 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/2.8 MB[0m [31m646.8 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/2.8 MB[0m [31m656.7 kB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.8/2.8 MB[0m [31m674.6 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.8/2.8 MB[0m [31m701.0 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.9/2.8 MB[0m [31m702.8 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.9/2.8 MB[0m [31m725.0 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/2.8 MB[0m [31m745.0 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/2.8 MB[0m [31m758.5 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/2.8 MB[0m [31m777.0 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/2.8 MB[0m [31m794.0 kB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/2.8 MB[0m [31m809.4 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/2.8 MB[0m [31m827.0 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/2.8 MB[0m [31m843.7 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/2.8 MB[0m [31m841.8 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m1.4/2.8 MB[0m [31m860.8 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m1.4/2.8 MB[0m [31m848.7 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m1.5/2.8 MB[0m [31m864.8 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m1.6/2.8 MB[0m [31m892.5 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m1.6/2.8 MB[0m [31m889.6 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m1.6/2.8 MB[0m [31m889.6 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━[0m [32m1.6/2.8 MB[0m [31m862.4 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━[0m [32m1.7/2.8 MB[0m [31m885.3 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m1.7/2.8 MB[0m [31m896.9 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m1.8/2.8 MB[0m [31m904.9 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [32m1.8/2.8 MB[0m [31m912.7 kB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━[0m [32m1.9/2.8 MB[0m [31m917.1 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━[0m [32m2.0/2.8 MB[0m [31m933.1 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━[0m [32m2.0/2.8 MB[0m [31m943.8 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━[0m [32m2.1/2.8 MB[0m [31m960.6 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━[0m [32m2.1/2.8 MB[0m [31m970.9 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━[0m [32m2.2/2.8 MB[0m [31m983.1 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m2.3/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m2.3/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m2.3/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m2.3/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━[0m [32m2.4/2.8 MB[0m [31m986.6 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━[0m [32m2.5/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━[0m [32m2.6/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━[0m [32m2.7/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m2.7/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m2.8/2.8 MB[0m [31m1.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/2.8 MB[0m [31m1.0 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: typing-extensions>=4.2.0 in /home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages (from sqlalchemy) (4.5.0)
+Collecting greenlet!=0.4.17 (from sqlalchemy)
+  Using cached greenlet-2.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (618 kB)
+Installing collected packages: greenlet, sqlalchemy
+  Attempting uninstall: sqlalchemy
+    Found existing installation: SQLAlchemy 2.0.5.post1
+    Uninstalling SQLAlchemy-2.0.5.post1:
+      Successfully uninstalled SQLAlchemy-2.0.5.post1
+Successfully installed greenlet-2.0.2 sqlalchemy-2.0.17
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$ pip install --upgrade sqlalchemy[12Palembic upgrade headpytest[Kalembic upgrade head
+Traceback (most recent call last):
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/bin/alembic", line 8, in <module>
+    sys.exit(main())
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 591, in main
+    CommandLine(prog=prog).main(argv=argv)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 585, in main
+    self.run_cmd(cfg, options)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/config.py", line 562, in run_cmd
+    fn(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/command.py", line 378, in upgrade
+    script.run_env()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/script/base.py", line 576, in run_env
+    util.load_python_file(self.dir, "env.py")
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 94, in load_python_file
+    module = load_module_py(module_id, path)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/alembic/util/pyfiles.py", line 110, in load_module_py
+    spec.loader.exec_module(module)  # type: ignore
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 78, in <module>
+    run_migrations_online()
+  File "/home/gina/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server/lib/alembic/env.py", line 60, in run_migrations_online
+    connectable = engine_from_config(
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 552, in create_engine
+    entrypoint = u._get_entrypoint()
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/engine/url.py", line 754, in _get_entrypoint
+    cls = registry.load(name)
+  File "/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 368, in load
+    raise exc.NoSuchModuleError(
+sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:driver
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab/server[00m$  d ..[K[K[K[Kcd ..
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab[00m$ clear
+[H[2J[3J]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-validation-flask-sqlalchemy-validations-lab[00m$ cd ..
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4[00m$ git clone git@github.com:faithwangare/python-p4-adding-react-to-flask.git
+Cloning into 'python-p4-adding-react-to-flask'...
+remote: Enumerating objects: 162, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+Receiving objects:   0% (1/162)Receiving objects:   1% (2/162)Receiving objects:   2% (4/162)Receiving objects:   2% (4/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   3% (5/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   4% (7/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   5% (9/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   6% (10/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   7% (12/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   8% (13/162), 416.00 KiB | 397.00 KiB/sReceiving objects:   9% (15/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  10% (17/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  11% (18/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  12% (20/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  13% (22/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  14% (23/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  15% (25/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  16% (26/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  17% (28/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  18% (30/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  19% (31/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  20% (33/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  21% (35/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  22% (36/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  23% (38/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  24% (39/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  25% (41/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  26% (43/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  27% (44/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  28% (46/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  29% (47/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  30% (49/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  31% (51/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  32% (52/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  33% (54/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  34% (56/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  35% (57/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  36% (59/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  37% (60/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  38% (62/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  39% (64/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  40% (65/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  41% (67/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  42% (69/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  43% (70/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  44% (72/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  45% (73/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  46% (75/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  47% (77/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  48% (78/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  49% (80/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  50% (81/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  51% (83/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  52% (85/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  53% (86/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  54% (88/162), 416.00 KiB | 397.00 KiB/sReceiving objects:  55% (90/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  56% (91/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  57% (93/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  58% (94/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  59% (96/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  60% (98/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  61% (99/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  62% (101/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  63% (103/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  64% (104/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  65% (106/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  66% (107/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  67% (109/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  68% (111/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  69% (112/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  70% (114/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  71% (116/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  72% (117/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  73% (119/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  74% (120/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  75% (122/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  76% (124/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  77% (125/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  78% (127/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  79% (128/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  80% (130/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  81% (132/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  82% (133/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  83% (135/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  84% (137/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  85% (138/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  86% (140/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  87% (141/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  88% (143/162), 684.00 KiB | 409.00 KiB/sremote: Total 162 (delta 2), reused 2 (delta 2), pack-reused 158[K
+Receiving objects:  89% (145/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  90% (146/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  91% (148/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  92% (150/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  93% (151/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  94% (153/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  95% (154/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  96% (156/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  97% (158/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  98% (159/162), 684.00 KiB | 409.00 KiB/sReceiving objects:  99% (161/162), 684.00 KiB | 409.00 KiB/sReceiving objects: 100% (162/162), 684.00 KiB | 409.00 KiB/sReceiving objects: 100% (162/162), 892.28 KiB | 451.00 KiB/s, done.
+Resolving deltas:   0% (0/25)Resolving deltas:   8% (2/25)Resolving deltas:  36% (9/25)Resolving deltas:  40% (10/25)Resolving deltas:  44% (11/25)Resolving deltas:  48% (12/25)Resolving deltas:  56% (14/25)Resolving deltas:  60% (15/25)Resolving deltas:  68% (17/25)Resolving deltas:  72% (18/25)Resolving deltas:  76% (19/25)Resolving deltas:  80% (20/25)Resolving deltas:  88% (22/25)Resolving deltas:  92% (23/25)Resolving deltas: 100% (25/25)Resolving deltas: 100% (25/25), done.
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4[00m$ cd python-p4-adding-react-to-flask
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-adding-react-to-flask[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-adding-react-to-flask[00m$ python[K[K[K[K[Kipenv --python /usr/bin/python
+[1mCreating a virtualenv for this project...[0m
+Pipfile: [33m[1m/home/gina/Documents/python/phase4/python-p4-adding-react-to-flask/Pipfile[0m
+[1mUsing[0m [33m[1m/usr/bin/python[0m [32m(3.8.10)[0m [1mto create virtualenv...[0m
+[?25l[32m⠋[0m Creating virtual environment...[2K[32m⠙[0m Creating virtual environment...[2K[32m⠹[0m Creating virtual environment...[2K[32m⠸[0m Creating virtual environment...[36mcreated virtual environment CPython3.8.10.final.0-64 in 163ms
+  creator CPython3Posix(dest=/home/gina/.local/share/virtualenvs/python-p4-adding-react-to-flask-ZPr14vTp, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/gina/.local/share/virtualenv)
+    added seed packages: pip==23.1.2, setuptools==67.8.0, wheel==0.40.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[0m
+✔ Successfully created virtual environment!
+[2K[32m⠸[0m Creating virtual environment...
+[?25h[1A[2K[32mVirtualenv location: /home/gina/.local/share/virtualenvs/python-p4-adding-react-to-flask-ZPr14vTp[0m
+[31m[1mWarning[0m: Your Pipfile requires [1mpython_version[0m [36m3.8.13[0m, but you are using [36m3.8.10[0m ([32m/home/gina/.local/share/v/p/bin/python[0m).
+  [32m$ pipenv --rm[0m and rebuilding the virtual environment may resolve the issue.
+  [33m$ pipenv check[0m will surely fail.
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-adding-react-to-flask[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-adding-react-to-flask[00m$ pipenv shell
+Shell for[0m [32m[1m/home/gina/.local/share/virtualenvs/python-p4-validation-flask-sqlalchemy-vali-Okj5_IAn[0m [1malready activated.[0m
+New shell not activated to avoid nested environments.
+]0;gina@gina-HP-EliteBook-840-G4: ~/Documents/python/phase4/python-p4-adding-react-to-flask[01;32mgina@gina-HP-EliteBook-840-G4[00m:[01;34m~/Documents/python/phase4/python-p4-adding-react-to-flask[00m$ exit
+exit
+
+Script done on 2023-06-28 19:45:39+03:00 [COMMAND_EXIT_CODE="1"]
